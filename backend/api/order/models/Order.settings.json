@@ -1,0 +1,30 @@
+{
+  "connection": "default",
+  "collectionName": "orders",
+  "info": {
+    "name": "order",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": [
+      "created_at",
+      "updated_at"
+    ],
+    "comment": ""
+  },
+  "attributes": {
+    "dishes": {
+      "type": "json"
+    },
+    "amount": {
+      "type": "biginteger"
+    },
+    "address": {
+      "type": "text"
+    },
+    "city": {
+      "type": "text"
+    }
+  }
+}

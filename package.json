@@ -23,5 +23,14 @@
   "description": "Exercise05 is full Shopping Cart with Stripe Billing",
   "main": "index.js",
   "author": "jrw@mit.edu",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bcusack91/brendancusackfullstackrestaurant.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bcusack91/brendancusackfullstackrestaurant/issues"
+  },
+  "homepage": "https://github.com/bcusack91/brendancusackfullstackrestaurant#readme"
 }
